@@ -3,3 +3,5 @@
 /chroma/
 /RAG_App.egg-info/
 /rag_env/
+/.idea/
+/__pycache__/
