@@ -1,10 +1,10 @@
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from src.client.openai_client import OpenAiClient
 from src.utils.chunk_processor import ChunkProcessor
 from src.utils.document_reader import DocumentReader
 from src.utils.embaddings_creator_chroma import EmbeddingsProcessor
-from src.client.openai_client import OpenAiClient
 
 load_dotenv()
 

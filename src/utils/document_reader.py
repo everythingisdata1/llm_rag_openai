@@ -1,4 +1,5 @@
 import os.path
+
 from PyPDF2 import PdfReader
 
 
@@ -16,11 +17,9 @@ class DocumentReader:
             return "".join(file.readlines())
 
 
-
 if __name__ == "__main__":
     # dr = DocumentReader("./../../data/DsTree.pdf")
     # docs = dr.read_pdf()
     # print(docs)
     dr = DocumentReader("./../../data/test.txt")
     print(dr.read_pdf())
-

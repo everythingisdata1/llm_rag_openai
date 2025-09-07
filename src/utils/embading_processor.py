@@ -45,6 +45,7 @@ class ChromaClient:
             ids=[f"id{i}" for i in range(len(documents))],
             documents=documents
         )
+
     def execute_query(self, collection, query: str, n_results: int = 5):
         if collection is None:
             raise ValueError("Collection not created. Call create_collection() first.")
