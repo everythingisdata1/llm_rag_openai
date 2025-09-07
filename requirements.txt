@@ -1,0 +1,15 @@
+python-dotenv
+openai
+scikit-learn
+pypdf2
+chromadb
+sentence_transformers
+python-magic
+anthropic
+langchain
+torch
+transformers
+sentence-transformers
+datasets
+faiss-cpu
+langchain-huggingface
